@@ -5,7 +5,7 @@ import ResultList from './components/ResultList';
 import Map from './components/Map/Map';
 import { callSheets } from './data/sheetLoadingHelpers.js';
 import ShoppingCart from './components/ShoppingCart';
-import SortBar from './components/SortBar.js';
+
 
 class App extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class App extends Component {
       isSavedResourcePaneOpen: false,
       savedResources: [],
     }
-
+    
     this.callSheets = callSheets.bind(this);
     this.toggleSavedResourcesPane = this.toggleSavedResourcesPane.bind(this);
     this.saveResource = this.saveResource.bind(this);
