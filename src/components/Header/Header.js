@@ -18,7 +18,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Community Connect - Revere</NavbarBrand>
+          <NavbarBrand href="/">Migrant Service Map - Boston</NavbarBrand>
           <SearchBar type="text" handleFilter={this.props.handleFilter} />
             <Nav className="ml-auto" navbar>
               <DropdownCategory category={this.props.categories} handleEvent={this.props.handleEvent}/>
